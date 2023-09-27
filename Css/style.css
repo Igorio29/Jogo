@@ -21,11 +21,11 @@ body{
 
 .informacoes {
     font-family: Pixel2;
-    margin:0 100px;
+    margin:0 15%;
     text-align: justify;
 }
 .Regras  {
-    margin: 25% 20% 0px;
+    margin: 20% 20% 0px;
 }
 .Titulo-Regras {
     text-align: center;
@@ -55,4 +55,59 @@ body{
 
 .conteudo {
     margin-top: 10px;
+}
+
+.botao {
+    text-align: center;
+    margin-bottom: 10%;
+    transition: 0.2s;
+    padding: 50px;
+}
+
+.comecar-o-jogo {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid black; /* Em vez de 'border-style' e 'border-color' */
+    font-family: Pixel;
+    margin-left: 0%;
+}
+
+.comecar-o-jogo:hover {
+    background-color: #006eff;
+    padding: 2px;
+}
+
+#footer {
+    background-color: #333;
+    color: #0a0909;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    transition: opacity 0.3s;
+}
+
+#back-to-top {
+    background-color: gray;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    bottom: 15px;
+    left: 46.5%;
+    font-size: 20px;
+}
+
+#back-to-top:hover {
+background-color: rgb(88, 88, 88);
+}
+
+.hidden {
+    display: none;
 }
