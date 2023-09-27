@@ -1,0 +1,58 @@
+body{
+    background:url(/Imagens/Planos-de-fundo/Plano-de-fundo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+@font-face{
+    font-family: Pixel;
+    src: url(/Fontes/GrapeSoda.ttf);
+}
+
+@font-face{
+    font-family: Pixel2;
+    src: url(/Fontes/GenericMobileSystem.ttf);
+}
+.Titulo1 {
+    font-size: 80px;
+    font-family: Pixel;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.informacoes {
+    font-family: Pixel2;
+    margin:0 100px;
+    text-align: justify;
+}
+.Regras  {
+    margin: 25% 20% 0px;
+}
+.Titulo-Regras {
+    text-align: center;
+    font-family: Pixel;
+    font-size: 30px;
+}
+
+.abas-row {
+    display: inline;
+    list-style: none;
+}
+
+.aba {
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 0 50px;
+    font-family: Pixel2;
+}
+
+.texto {
+    display: none;
+    text-align: justify;
+    margin: 0 50px;
+}
+
+.conteudo {
+    margin-top: 10px;
+}
