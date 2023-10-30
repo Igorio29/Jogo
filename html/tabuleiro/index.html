@@ -3,12 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jogo</title>
     <link rel="stylesheet" href="/Css/jogo.css">
 </head>
 <body>
-    <img id="dudu" src="" alt="" class="posicao-inicio">
-    <div id="pergunta"></div>
+    <button class="dado" id="dado" onclick="clica()">DADO</button>
+    <p id="dudu" class="posicao-inicio">Dudu</p>
+    
+    <!-- Formulário de Perguntas -->
+    <form id="quiz" style="display: none;">
+        <p>Pergunta para o usuário?</p>
+        <label>
+            <input type="radio" name="resposta" value="A"> A) Alternativa A
+        </label><br>
+        <label>
+            <input type="radio" name="resposta" value="B"> B) Alternativa B
+        </label><br>
+        <label>
+            <input type="radio" name="resposta" value="C"> C) Alternativa C
+        </label><br>
+        <label>
+            <input type="radio" name="resposta" value="D"> D) Alternativa D
+        </label><br>
+        <button type="button" onclick="verificarResposta()">Responder</button>
+    </form>
+
     <script src="/Javascript/SistemaDeDados.js"></script>
+    <script src="/Javascript/tabuleiro.js"></script>
 </body>
 </html>
