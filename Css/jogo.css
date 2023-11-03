@@ -1,11 +1,6 @@
-body {
-    background-image: url(/Imagens/Planos-de-fundo/teladefundotabuleiro.png);
-    background-size: 100%;
-}
-
 
 body {
-    background-image: url(/Imagens/Planos-de-fundo/teladefundotabuleiro.png);
+    background-image: url(./Imagens/Planos-de-fundo/teladefundotabuleiro.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
