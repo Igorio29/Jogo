@@ -1,16 +1,16 @@
 body{
-    background:url(/Imagens/Planos-de-fundo/Plano-de-fundo.png);
+    background:url(./Imagens/Planos-de-fundo/Plano-de-fundo.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 @font-face{
     font-family: Pixel;
-    src: url(/Fontes/GrapeSoda.ttf);
+    src: url(./Fontes/GrapeSoda.ttf);
 }
 
 @font-face{
     font-family: Pixel2;
-    src: url(/Fontes/GenericMobileSystem.ttf);
+    src: url(./Fontes/GenericMobileSystem.ttf);
 }
 .Titulo1 {
     font-size: 80px;

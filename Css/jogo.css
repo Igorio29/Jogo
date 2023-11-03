@@ -1,160 +1,206 @@
 
+body {
+    background-image: url(./Imagens/Planos-de-fundo/teladefundotabuleiro.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.pergunta {
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    right: 60px;
+    text-align: center; 
+       
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+button {
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgba(255, 223, 245, 0.685);
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgba(255, 180, 231, 0.829);
+}
+
+.dado {
+    top: 50px;
+    position: absolute;
+    left: 1090px;
+    background-color: aquamarine;
+    transition: all 0.13s;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dado:hover {
+    background-color: aqua;
+    transform: scale(1.05);
+}
+
 .posicao-inicio {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 100px;
+    margin-left: 600px;
 }
 
 .posicao-1 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 100px;
+    margin-left: 450px;
 }
 
 .posicao-2 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 100px;
+    margin-left: 350px;
 }
 
 .posicao-3 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 100px;
+    margin-left: 270px;
 }
 
 .posicao-4 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 100px;
+    margin-left: 170px;
 }
 
 .posicao-5 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 100px;
+    margin-left: 70px;
 }
 
 .posicao-6 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 200px;
+    margin-left: 70px;
 }
 
 .posicao-7 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 300px;
+    margin-left: 70px;
 }
 
 .posicao-8 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 300px;
+    margin-left: 170px;
 }
 
 .posicao-9 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 300px;
+    margin-left: 270px;
 }
 
 .posicao-10 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 300px;
+    margin-left: 360px;
 }
 
 .posicao-11 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 300px;
+    margin-left: 450px;
 }
 
 .posicao-12 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 300px;
+    margin-left: 550px;
 }
 
-.posicao-13{
-    margin-top: ;
-    margin-left: ;
+.posicao-13 {
+    margin-top: 400px;
+    margin-left: 550px;
 }
 
 .posicao-14 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 500px;
+    margin-left: 550px;
 }
 
 .posicao-15 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 500px;
+    margin-left: 450px;
 }
 
 .posicao-16 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 500px;
+    margin-left: 360px;
 }
 
 .posicao-17 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 500px;
+    margin-left: 270px;
 }
 
 .posicao-18 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 500px;
+    margin-left: 170px;
 }
 
-.posicao-19{
-    margin-top: ;
-    margin-left: ;
+.posicao-19 {
+    margin-top: 500px;
+    margin-left: 70px;
 }
 
 .posicao-20 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 600px;
+    margin-left: 70px;
 }
 
 .posicao-21 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 700px;
+    margin-left: 70px;
 }
 
 .posicao-22 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 700px;
+    margin-left: 170px;
 }
 
 .posicao-23 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 700px;
+    margin-left: 270px;
 }
 
 .posicao-24 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 700px;
+    margin-left: 360px;
 }
 
 .posicao-25 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 700px;
+    margin-left: 450px;
 }
 
 .posicao-26 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 800px;
+    margin-left: 450px;
 }
 
 .posicao-27 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 870px;
+    margin-left: 450px;
 }
 
 .posicao-28 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 970px;
+    margin-left: 450px;
 }
 
 .posicao-29 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 970px;
+    margin-left: 350px;
 }
 
 .posicao-30 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 970px;
+    margin-left: 270px;
 }
 
-.posicao-final {
-    margin-top: ;
-    margin-left: ;
+.posicao-31 {
+    margin-top: 970px;
+    margin-left: 140px;
 }
