@@ -10,7 +10,7 @@ let casa = 0;
 let quiz = document.getElementById('quiz');
 
 function gerarNumeroAleatorio() {
-    return Math.floor(Math.random() * 6) + 1;
+    return Math.floor(Math.random() * 3) + 1;
 }
 
 function atualizarPosicaoPersonagem() {
