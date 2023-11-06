@@ -1,160 +1,216 @@
+@font-face{
+    font-family: Pixel;
+    src: url(./Fontes/GrapeSoda.ttf);
+}
+
+body {
+    background-image: url(./Imagens/Planos-de-fundo/teladefundotabuleiro.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+#dudu {
+    width: 80px;
+}
+
+.pergunta {
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    right: 60px;
+    text-align: center; 
+       
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+button {
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgba(255, 223, 245, 0.685);
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgba(255, 180, 231, 0.829);
+}
+
+.dado {
+    top: 50px;
+    position: absolute;
+    left: 1050px;
+    background-color: aquamarine;
+    transition: all 0.13s;
+    font-size: 50px;
+    font-family: Pixel;
+    padding: 10px;
+}
+
+.dado:hover {
+    background-color: aqua;
+    transform: scale(1.05);
+}
 
 .posicao-inicio {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 66px;
+    margin-left: 570px;
 }
 
 .posicao-1 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 66px;
+    margin-left: 435px;
 }
 
 .posicao-2 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 66px;
+    margin-left: 340px;
 }
 
 .posicao-3 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 66px;
+    margin-left: 245px;
 }
 
 .posicao-4 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 66px;
+    margin-left: 150px;
 }
 
 .posicao-5 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 66px;
+    margin-left: 53px;
 }
 
 .posicao-6 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 161px;
+    margin-left: 53px;
 }
 
 .posicao-7 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 256px;
+    margin-left: 53px;
 }
 
 .posicao-8 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 256px;
+    margin-left: 150px;
 }
 
 .posicao-9 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 256px;
+    margin-left: 245px;
 }
 
 .posicao-10 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 256px;
+    margin-left: 340px;
 }
 
 .posicao-11 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 256px;
+    margin-left: 435px;
 }
 
 .posicao-12 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 256px;
+    margin-left: 535px;
 }
 
-.posicao-13{
-    margin-top: ;
-    margin-left: ;
+.posicao-13 {
+    margin-top: 353px;
+    margin-left: 535px;
 }
 
 .posicao-14 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 447px;
+    margin-left: 535px;
 }
 
 .posicao-15 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 447px;
+    margin-left: 438px;
 }
 
 .posicao-16 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 447px;
+    margin-left: 343px;
 }
 
 .posicao-17 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 447px;
+    margin-left: 245px;
 }
 
 .posicao-18 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 447px;
+    margin-left: 150px;
 }
 
-.posicao-19{
-    margin-top: ;
-    margin-left: ;
+.posicao-19 {
+    margin-top: 447px;
+    margin-left: 53px;
 }
 
 .posicao-20 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 541px;
+    margin-left: 53px;
 }
 
 .posicao-21 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 635px;
+    margin-left: 53px;
 }
 
 .posicao-22 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 635px;
+    margin-left: 150px;
 }
 
 .posicao-23 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 635px;
+    margin-left: 245px;
 }
 
 .posicao-24 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 635px;
+    margin-left: 342px;
 }
 
 .posicao-25 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 635px;
+    margin-left: 436px;
 }
 
 .posicao-26 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 734px;
+    margin-left: 436px;
 }
 
 .posicao-27 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 828px;
+    margin-left: 436px;
 }
 
 .posicao-28 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 923px;
+    margin-left: 436px;
 }
 
 .posicao-29 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 923px;
+    margin-left: 342px;
 }
 
 .posicao-30 {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 923px;
+    margin-left: 246px;
 }
 
-.posicao-final {
-    margin-top: ;
-    margin-left: ;
+.posicao-31 {
+    margin-top: 923px;
+    margin-left: 118px;
 }

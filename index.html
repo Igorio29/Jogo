@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo</title>
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./Css/reset.css">
+</head>
+
+<body>
+    <div class="tela principal">
+        <h1 class="Titulo1">Olá seja bem vindo</h1>
+        <h2 class="informacoes">Este é um jogo no formato tabuleiro de caminho, com perguntas do livro
+            "Dez dias de cortiço" do escritor Ivan J. F. esperamos que goste do nosso jogo, ele foi programado a
+            base de html, css e javascript feito em [Colocar em quanto tempo o jogo foi feito começando do dia 24/09].
+    </div>
+    <div class="Regras">
+        <h3 class="Titulo-Regras">Regras do jogo:</h3>
+        <ol class="abas-row">
+            <li class="aba" onclick="mostrarTexto('texto1')">Regra 1 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ▼</li>
+            <div id="texto1" class="texto">O Dado do Jogo possui 6 lados: Isso significa que você usará um dado de seis
+                faces para determinar quantas casas avançará no tabuleiro a cada jogada.</div>
+            <hr>
+            <li class="aba" onclick="mostrarTexto('texto2')">Regra 2 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ▼ </li>
+            <div id="texto2" class="texto">Perguntas em Todas as Casas: Cada casa no tabuleiro do jogo estará associada
+                a uma pergunta. Antes de avançar para a próxima casa, você deverá responder corretamente à pergunta
+                correspondente.</div>
+            <hr>
+            <li class="aba" onclick="mostrarTexto('texto3')">Regra 3 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ▼</li>
+            <div id="texto3" class="texto">Próxima Jogada Condicional: Apenas quando você responder corretamente à
+                pergunta da casa atual, a próxima jogada será liberada. Isso incentiva o aprendizado e a interação com
+                as perguntas.</div>
+            <hr>
+            <li class="aba" onclick="mostrarTexto('texto4')">Regra 4 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ▼</li>
+            <div id="texto4" class="texto">Punição por Resposta Incorreta: Em caso de resposta incorreta, você terá que
+                voltar 2 casas no tabuleiro. Isso adiciona um elemento estratégico ao jogo e reforça a importância de
+                aprender com as perguntas.</div>
+            <hr>
+            <li class="aba" onclick="mostrarTexto('texto5')">Regra 5 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ▼</li>
+            <div id="texto5" class="texto">Relate Erros ao Criadores: Se você encontrar qualquer erro ou problema no
+                jogo, pedimos que o reporte aos criadores ou desenvolvedores. É importante manter a integridade do jogo.
+            </div>
+            <hr>
+            <li class="aba" onclick="mostrarTexto('texto6')">Regra 6 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ▼</li>
+            <div id="texto6" class="texto">Proibido Consultar o Livro: Durante a rodada, não é permitido consultar o
+                livro ou qualquer outra fonte externa para obter respostas às perguntas. Isso garante que o jogo seja
+                desafiador e educativo.</div>
+            <hr>
+            <li class="aba" onclick="mostrarTexto('texto7')">Regra 7 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ▼</li>
+            <div id="texto7" class="texto">Diversão em Primeiro Lugar: Lembre-se de que a principal finalidade do jogo é
+                se divertir. Aproveite a experiência, desafie-se com as perguntas e divirta-se durante o processo. O
+                jogo foi projetado para entretenimento e aprendizado.</div>
+
+            <hr>
+        </ol>
+    </div>
+    <div class="botao">
+        <a href="tabuleiro.html" class="comecar-o-jogo">COMEÇAR O JOGO</a>
+    </div>
+    <footer id="footer" class="hidden">
+        <button id="back-to-top">&uparrow;</button>
+    </footer>
+    <script src="./Javascript/JavaScript.js"></script>
+</body>
+
+</html>
